@@ -1,27 +1,30 @@
 import React from "react";
-import Covid from "./Covid";
-import Car from "./components/Car";
-import Props1 from "./components/Props1";
-import Netprops from "./components/Netprops";
-import Updateprops from "./components/Updateprops";
-import Constructor from "./components/Constructor";
-import DerivedState from "./components/DerivedState";
-import ComDidMount from "./ComDidMount";
+// import Covid from "./Covid";
+// import Car from "./components/Car";
+// import Props1 from "./components/Props1";
+// import Netprops from "./components/Netprops";
+// import Updateprops from "./components/Updateprops";
+// import Constructor from "./components/Constructor";
+// import DerivedState from "./components/DerivedState";
+// import ComDidMount from "./ComDidMount";
+import Hook from "./components/Hook";
 function App() {
   return(
   <>
-    <Covid/>
-    <Car/>
-    <Props1/>
-    <Netprops />
-    <Netprops />
-    <Constructor />
+    {/* <Covid/> */}
+    {/* <Car/> */}
+    {/* <Props1/> */}
+    {/* <Netprops /> */}
+    {/* <Netprops /> */}
+    {/* <Constructor /> */}
 
-    <DerivedState/>
+    {/* <DerivedState/> */}
 
-    <ComDidMount />
+    {/* <ComDidMount /> */}
 
-    <Updateprops />
+    {/* <Updateprops /> */}
+
+    <Hook />
 
   
     
