@@ -1,27 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-import Hello from './components/Hello';
-
+import React from "react";
+// import Covid from "./Covid";
+// import Car from "./components/Car";
+// import Props1 from "./components/Props1";
+// import Netprops from "./components/Netprops";
+// import Updateprops from "./components/Updateprops";
+// import Constructor from "./components/Constructor";
+// import DerivedState from "./components/DerivedState";
+// import ComDidMount from "./ComDidMount";
+import Hook from "./components/Hook";
 function App() {
-  return (
-    <div className="App">
-      <Hello/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  return(
+  <>
+    {/* <Covid/> */}
+    {/* <Car/> */}
+    {/* <Props1/> */}
+    {/* <Netprops /> */}
+    {/* <Netprops /> */}
+    {/* <Constructor /> */}
 
+    {/* <DerivedState/> */}
+
+    {/* <ComDidMount /> */}
+
+    {/* <Updateprops /> */}
+
+    <Hook />
+
+  
+    
+  </>
+  )
+}
 export default App;
