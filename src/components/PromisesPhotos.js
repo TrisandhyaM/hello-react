@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 
-export default function Promises() {
+export default function PromisesPhotos() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
