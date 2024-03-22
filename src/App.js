@@ -1,34 +1,15 @@
-import React from "react";
-// import Covid from "./Covid";
-// import Car from "./components/Car";
-// import Props1 from "./components/Props1";
-// import Netprops from "./components/Netprops";
-// import Updateprops from "./components/Updateprops";
-// import Constructor from "./components/Constructor";
-// import DerivedState from "./components/DerivedState";
-// import ComDidMount from "./ComDidMount";
-import Hook from "./components/Hook";
+import './App.css';
+import PromisesMail from './components/PromisesMail';
+import PromisesPhotos from './components/PromisesPhotos';
+
+
 function App() {
-  return(
-  <>
-    {/* <Covid/> */}
-    {/* <Car/> */}
-    {/* <Props1/> */}
-    {/* <Netprops /> */}
-    {/* <Netprops /> */}
-    {/* <Constructor /> */}
+  return (
+    <div className="App">
+      <PromisesMail />
+      <PromisesPhotos />
+    </div>
 
-    {/* <DerivedState/> */}
-
-    {/* <ComDidMount /> */}
-
-    {/* <Updateprops /> */}
-
-    <Hook />
-
-  
-    
-  </>
-  )
+  );
 }
 export default App;
