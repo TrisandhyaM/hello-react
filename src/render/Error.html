@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Error Handling </title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  #result {
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+<h1>Error Handling</h1>
+<button onclick="handleError()">Generate Error</button>
+<div id="result"></div>
+
+<script>
+function handleError() {
+  var resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = ""; 
+  
+  try {
+    var random = Math.random();
+    if (random < 0.5) {
+      throw "An error occurred!";
+    } else {
+      resultDiv.innerHTML = "No error occurred!";
+    }
+  } catch (error) {
+    resultDiv.innerHTML = "Error caught: " + error;
+  } finally {
+    resultDiv.innerHTML += "<br>Finally block executed.";
+  }
+}
+</script>
+</body>
+</html>
